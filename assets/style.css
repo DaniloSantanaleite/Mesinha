@@ -5,8 +5,7 @@
     box-sizing: border-box;
 }
 
-/* LOGO DO SITE E NOME*/
-
+/* LOGO DO SITE ,NOME E MENU*/
 .logo{
     width: 80px;
     height: 80px;
@@ -15,6 +14,7 @@
     margin: 20px 30px;
     position: absolute;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.486)
+    
 }
 
 #topo{
@@ -25,16 +25,52 @@
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.63);
 }
 
-span{
+.toponome{
     font-weight: 200;
+    font-size: 35px;
+    font-family: "Corinthia", cursive;
    
 }
 
-/* LOGO DO SITE E NOME - FIM */
+ul{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    left:45%;
+    bottom: 91%;
+    text-align: center;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.096);
+
+}
+
+li{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 400;
+    list-style-type: none;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.795);
+    display: inline;
+    margin: 30px;
+    cursor: pointer;
+    width: 200px;
+}
+
+li:hover{
+    font-weight: 500;
+    
+    color: black;
+    border-radius: 30px;
+    border: 1px solid #f4c9c9a1;
+    padding: 10px;
+    box-shadow: 0px 10px 30px #f4c9c9a1;
+
+}
+/* LOGO DO SITE, NOME E MENU - FIM */
+
 
 /* SLOGAN SITE */
-
-p{
+.slogan{
     font-size:32px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.795);
@@ -46,11 +82,10 @@ p{
     left: 30%;
     top: 45%;
 }
-
 /* SLOGAN - FIM */
 
-/* VIDEO DE FUNDO */
 
+/* VIDEO DE FUNDO */
 video{
     position:absolute;
     top: 0;
@@ -58,32 +93,78 @@ video{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.9; 
-    
+    opacity: 0.9;    
 }
-
 /* VIDEO DE FUNDO - FIM */
 
+/* CONFIGURAÇÃO PADRÃO DA CAIXA SOBRE */
 section{
+    
     position: absolute;
-    top: 100%;
-    width: 100%;
-    height: 100%;
-    display: inline-flex;                       
-    gap: 20px;                 
-    justify-content: center; 
+    top: 110%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    display: inline-flex;                         
+    justify-content: center;   
 }
-#titulo{
-    position: absolute;
-    top: 55%;
-    left: 22%;
-}
+/* CONFIGURAÇÃO PADRÃO DA CAIXA SOBRE - FIM */
 
+/* IMAGEM E FUNDO */
+.fundoimagem{
+    width:640px;
+    height: 853px;
+    background-color: #fde4e49f;
+    border-radius: 35px;
+    position: static;
+    top: 20%;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.308);
+}
 
 img{
-    width:437px;
-    height: 387px;
+    width:640px;
+    height: 853px;
+    border-radius: 35px;
     position: relative;
-    left: 30%;
-    top: 50%;
+    right:10%;
+    top: 8%;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.486);
 }
+/* IMAGEM E FUNDO - FIM*/
+
+/* SOBRE MIM  */
+.quemsoueu{
+    
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 35%;
+    left: 4%;
+}
+.meunome{
+    
+    text-align: center;
+    line-height: 70px;
+    font-weight: 500;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.63); 
+}
+span{
+    font-weight: 200;
+}
+
+.introducao{ 
+    position: relative;
+    width: 700px;
+    height: 300px;
+    top: 1%;
+    left: 6%;
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+/* SOBRE MIM - FIM */
